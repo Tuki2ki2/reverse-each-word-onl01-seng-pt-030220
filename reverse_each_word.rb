@@ -16,3 +16,4 @@ sentence.map do |m|
   new_sentence << m.reverse
 end
 new_sentence.join (" ")
+end
