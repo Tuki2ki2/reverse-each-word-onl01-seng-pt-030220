@@ -4,3 +4,4 @@ word.each do |w|
     reversed_word << w.reverse
   end
   reversed_word
+end
