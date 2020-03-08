@@ -11,7 +11,7 @@ end
 
 def reverse_collect(sentence)
 sentence = sentence.split(" ")
-new_sentence = [] 
+new_sentence = []
 sentence.map do |m|
   new_sentence << m.reverse
   new_sentence.join (" ")
