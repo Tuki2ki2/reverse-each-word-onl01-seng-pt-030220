@@ -14,5 +14,5 @@ sentence = sentence.split(" ")
 new_sentence = []
 sentence.map do |m|
   new_sentence << m.reverse
-  new_sentence.join (" ")
 end
+new_sentence.join (" ")
